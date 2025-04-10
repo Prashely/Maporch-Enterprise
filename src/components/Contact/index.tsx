@@ -2,9 +2,9 @@ import NewsLatterBox from "./NewsLatterBox";
 
 const Contact = () => {
   return (
-    <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
-      <div className="container">
-        <div className="-mx-4 flex flex-wrap">
+    <section id="contact" className="flex justify-center items-center overflow-hidden py-16 md:py-20 lg:py-28">
+      <div className="container items-center justify-center">
+        <div className="flex justify-center flex-wrap">
           <div className="w-full px-4 lg:w-7/12 xl:w-8/12">
             <div
               className="mb-12 rounded-xs bg-white px-8 py-11 shadow-three dark:bg-gray-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]"
@@ -73,9 +73,6 @@ const Contact = () => {
                 </div>
               </form>
             </div>
-          </div>
-          <div className="w-full px-4 lg:w-5/12 xl:w-4/12">
-            <NewsLatterBox />
           </div>
         </div>
       </div>
