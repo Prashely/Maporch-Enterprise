@@ -20,30 +20,42 @@ const Pricing = () => {
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <PricingBox
-            packageName="Lite"
+            packageName="Printing & Embrodiery"
             price=""
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="For prices please contact us"
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Signage boards" status="active" />
+            <OfferList text="Vehicle Branding" status="active" />
+            <OfferList text="Wall Banners" status="active" />
+            <OfferList text="Pull-Up Banner" status="active" />
+            <OfferList text="Shop Branding" status="active" />
+            <OfferList text="Fleet Stickers" status="active" />
+            <OfferList text="Name Tags" status="active" />
+            <OfferList text="Diaries" status="active" />
+            <OfferList text="Gazebos" status="active" />
+            <OfferList text="Graphic Design" status="active" />
+            <OfferList text="Safety Signs" status="active" />
+            <OfferList text="And more..." status="active" />
           </PricingBox>
           <PricingBox
-            packageName="Basic"
+            packageName="PPE Safety Work Wear"
             price={isMonthly ? "399" : "789"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="For prices please contact us."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Helmets" status="active" />
+            <OfferList text="Overalls" status="active" />
+            <OfferList text="Gumboots" status="active" />
+            <OfferList text="Footwear" status="active" />
+            <OfferList text="Safety Belts" status="active" />
+            <OfferList text="Lab Coats" status="active" />
+            <OfferList text="Housekeeping Uniform" status="active" />
+            <OfferList text="Rain Coats" status="active" />
+            <OfferList text="Reflective Wear" status="active" />
+            <OfferList text="Gloves" status="active" />
+            <OfferList text="Safety Signs" status="active" />
+            <OfferList text="And more..." status="active" />
           </PricingBox>
 
         </div>
