@@ -7,7 +7,7 @@ const Footer = () => {
     <>
       <footer className="dark:bg-gray-dark relative z-10 bg-red-50 pt-16 md:pt-20 lg:pt-24">
         <div className="container">
-          <div className="-mx-4 flex justify-between">
+          <div className="-mx-4 flex flex-wrap justify-between">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-2 inline-block">
