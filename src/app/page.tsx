@@ -8,12 +8,12 @@ import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
-import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Maporch Enterprise - Home",
-  description: "Your one-stop for quality PPE Safety Wear, Printing & Embroidery.",
+  description:
+    "Your one-stop for quality PPE Safety Wear, Printing & Embroidery.",
   // other metadata
 };
 

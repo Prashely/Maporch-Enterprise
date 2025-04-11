@@ -136,7 +136,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="flex w-full gap-2 px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+            <div className="flex gap-4 px-4">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-2 text-xl font-bold text-black dark:text-white">
                   Contact

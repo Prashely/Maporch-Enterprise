@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -46,20 +47,26 @@ const Hero = () => {
           {/* Right Column - Image / Blob placeholder */}
           <div className="mt-10 w-full px-4 lg:mt-0 lg:w-1/2">
             <div className="relative mx-auto max-w-[400px]">
-              {/* Replace the blob with your own SVG or image */}
+              {/* Blob SVG */}
               <svg
                 viewBox="0 0 200 200"
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-auto w-full"
               >
                 <path
-                  fill="#3b82f6"
+                  fill="red" // Changed the blob color to red
                   d="M47.3,-54.2C61.7,-45.7,73.6,-30.2,73.4,-15.3C73.3,-0.3,61.1,14.1,50.1,25.2C39.1,36.3,29.2,44.1,17.1,50.3C5.1,56.5,-9,61.2,-20.2,56.5C-31.4,51.7,-39.7,37.6,-48.3,23.4C-57,9.2,-66.1,-5.2,-65.5,-19.4C-64.9,-33.6,-54.5,-47.6,-41.3,-55.3C-28.1,-62.9,-14.1,-64.2,0.5,-64.8C15.2,-65.5,30.4,-65.1,47.3,-54.2Z"
                   transform="translate(100 100)"
                 />
               </svg>
-              {/* You can also replace the SVG with an <Image /> tag if you want */}
-              {/* <Image src="/images/hero.png" alt="Hero Image" width={400} height={400} /> */}
+              {/* Image inside the blob */}
+              <Image
+                src="/images/ppe/2.jpg" // Ensure this path is correct
+                alt="Hero Image"
+                className="absolute top-0 left-0 h-full w-full object-cover"
+                width={400}
+                height={400}
+              />
             </div>
           </div>
         </div>
