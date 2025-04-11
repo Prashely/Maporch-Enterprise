@@ -136,7 +136,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="flex gap-4 px-4">
+            <div className="flex flex-wrap gap-4 px-4">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-2 text-xl font-bold text-black dark:text-white">
                   Contact
