@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
-                <Link href="/" className="mb-8 inline-block">
+                <Link href="/" className="mb-2 inline-block">
                   <Image
                     src="/images/logo/logo.png"
                     alt="logo"
@@ -26,12 +26,12 @@ const Footer = () => {
                     height={30}
                   />
                 </Link>
-                <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
+                <p className="mb-2 text-base leading-relaxed text-body-color dark:text-body-color-dark">
                   Yout one stop for quality PPE Safety Wear, Printing & Embroidery. 
                 </p>
                 <div className="flex items-center">
                   <a
-                    href="/"
+                    href="https://www.facebook.com/people/Maporch-Enterprise/61573398093426/"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -50,6 +50,34 @@ const Footer = () => {
                       />
                     </svg>
                   </a>
+                  <a
+  href="mailto:designer@maporch.co.za"
+  aria-label="Email"
+  className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+>
+  <svg
+    width="18"
+    height="18"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M22 6L12 13L2 6"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+</a>
                 </div>
               </div>
             </div>
