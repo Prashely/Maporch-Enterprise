@@ -159,9 +159,17 @@ const Header = () => {
                 </nav>
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
-                <div>
-                  <ThemeToggler />
-                </div>
+                <button
+                  onClick={() => {
+                    const contactSection = document.getElementById("contact");
+                    if (contactSection) {
+                      contactSection.scrollIntoView({ behavior: "smooth" });
+                    }
+                  }}
+                  className="bg-primary hover:bg-primary/80 rounded-lg px-6 py-2 font-semibold text-white transition duration-300"
+                >
+                  Contact
+                </button>
               </div>
             </div>
           </div>

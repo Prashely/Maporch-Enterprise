@@ -20,12 +20,12 @@ const AboutSectionOne = () => {
   return (
     <section id="about" className="pt-16 md:pt-20 lg:pt-28">
       <div className="container">
-        <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
+        <div className="border-body-color/[.15] border-b pb-16 md:pb-20 lg:pb-28 dark:border-white/[.15]">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="We supply for Startups, Enterprise and Large Corporations."
+                paragraph="For over 4 years MaPorch has been providing long lasting PPE safety & work wear in Limpopo, and across South Africa. We have wide range of well established brands such as Titan, Rebel, Dromax etc"
                 mb="44px"
               />
 
@@ -35,15 +35,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="Community" />
+                    <List text="Mines" />
+                    <List text="Hospitals" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Factories" />
+                    <List text="Plants" />
+                    <List text="Schools" />
                   </div>
                 </div>
               </div>
@@ -52,16 +52,10 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="relative mx-auto aspect-25/24 max-w-[500px] lg:mr-0">
                 <Image
-                  src="/images/about/about-image.svg"
+                  src="/images/ppe/4.png"
                   alt="about-image"
                   fill
-                  className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
-                />
-                <Image
-                  src="/images/about/about-image-dark.svg"
-                  alt="about-image"
-                  fill
-                  className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
+                  className="drop-shadow-three mx-auto max-w-full lg:mr-0 dark:hidden dark:drop-shadow-none"
                 />
               </div>
             </div>
