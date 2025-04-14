@@ -37,7 +37,7 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-primary relative z-10 py-4 md:py-8 lg:py-14">
       <div className="container">
         <SectionTitle
-          title="What Our Customer Says"
+          title="What Our Customer Say?"
           paragraph="Each and everyone of them is fully satisfied with our service."
           center
         />

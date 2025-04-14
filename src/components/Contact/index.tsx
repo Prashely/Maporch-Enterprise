@@ -18,7 +18,14 @@ const Contact = () => {
                 Need Help?
               </h2>
               <p className="text-body-color mb-12 text-base font-medium">
-                Fill the form below or give a call at 015 004 2852 or WhatsApp
+                Fill the form below or give a call at{" "}
+                <span className="text-bold text-primary">015 004 2852</span> or{" "}
+                <a
+                  href="https://wa.me/message/SOWC6MH4DARXP1"
+                  className="text-primary hover:underline"
+                >
+                  WhatsApp
+                </a>{" "}
                 Us.
               </p>
               <form>
