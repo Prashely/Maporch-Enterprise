@@ -206,6 +206,15 @@ const Footer = () => {
             <p className="text-body-color text-center text-base dark:text-white">
               Maporch Enterprise © 2025 All Rights Reserved
             </p>
+            <p className="text-center text-sm text-gray-500">
+              credits to{" "}
+              <a
+                href="https://prashely.com"
+                className="text-black underline underline-offset-2"
+              >
+                Prashely
+              </a>
+            </p>
           </div>
         </div>
       </footer>

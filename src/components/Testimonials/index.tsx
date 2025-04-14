@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Malesela Mokoka",
+    designation: "Founder @KSMM",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Very impressed with their services and qulity of work. They are very professional and always deliver on time.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Joanas Senoamadi",
+    designation: "Founder @EcoXSuitors",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "My previous designer was not able to deliver the quality I was looking for. I am so glad I found this team.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Prashely Maluleke",
+    designation: "Designer @MaPorch",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "The quality of their PPE is top notch. Team is friendly and always willing to help, great vibes all around.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
