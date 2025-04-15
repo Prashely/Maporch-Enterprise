@@ -8,7 +8,7 @@ const Hero = () => {
       className="dark:bg-gray-dark relative z-10 overflow-hidden bg-white pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]"
     >
       <div className="container">
-        <div className="-mx-4 flex flex-wrap-reverse items-center">
+        <div className="-mx-4 flex flex-wrap-reverse items-center sm:gap-2.5 lg:gap-0">
           {/* Left Column - Text */}
           <div className="w-full px-4 lg:w-1/2">
             <div className="max-w-[600px]">
@@ -63,7 +63,7 @@ const Hero = () => {
               <Image
                 src="/images/ppe/2.jpg" // Ensure this path is correct
                 alt="Hero Image"
-                className="absolute top-0 left-0 h-full w-full object-cover"
+                className="absolute top-0 left-0 h-full w-full rounded-3xl object-cover"
                 width={400}
                 height={400}
               />
