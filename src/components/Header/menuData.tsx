@@ -9,16 +9,11 @@ const menuData: Menu[] = [
   },
   {
     id: 2,
-    title: "PPE Safety Wear",
-    path: "/about",
+    title: "Services",
+    path: "/services",
     newTab: false,
   },
-  {
-    id: 33,
-    title: "Printing & Embroidery",
-    path: "/blog",
-    newTab: false,
-  },
+
   {
     id: 3,
     title: "Contact",

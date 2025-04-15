@@ -15,7 +15,7 @@ const AboutPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="PPE SAFETY WORK WEAR"
+        pageName="Services"
         description="For the best PPE SAFETY WORK WEAR in Mokopane, Maporch Enterpriise is the best choice. We offer a wide range of products to meet your safety & work needs."
       />
       <AboutSectionOne />
