@@ -183,7 +183,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="tel:+27150042852"
+                      href="/services"
                       className="text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary mb-1 inline-block text-base duration-300"
                     >
                       Printing & Embroidery
@@ -191,7 +191,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="tel:+27661386214"
+                      href="/services"
                       className="text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary mb-1 inline-block text-base duration-300"
                     >
                       About

@@ -24,7 +24,7 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="We supply for Startups, Enterprise and Large Corporations."
+                title="We supply Startups, Enterprises and Large Corporations."
                 paragraph="For over 4 years MaPorch has been providing long lasting PPE safety & work wear in Limpopo, and across South Africa. We have wide range of well established brands such as Titan, Rebel, Dromax etc"
                 mb="44px"
               />
@@ -46,6 +46,17 @@ const AboutSectionOne = () => {
                     <List text="Schools" />
                   </div>
                 </div>
+              </div>
+
+              {/* Download Button */}
+              <div className="mt-8">
+                <a
+                  href="/booklet/maporch.pdf"
+                  download
+                  className="bg-primary hover:bg-primary/80 rounded-lg px-6 py-3 font-semibold text-white transition duration-300"
+                >
+                  Download Booklet
+                </a>
               </div>
             </div>
 

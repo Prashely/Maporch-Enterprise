@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const AboutSectionTwo = () => {
   return (
-    <section className="py-16 md:py-20 lg:py-28">
+    <section className="py-16 md:py-20 lg:py-28" id="printing">
       <div className="container">
         <div className="-mx-4 flex flex-wrap items-center justify-center">
           <div className="w-full px-4 lg:w-1/2">
@@ -22,31 +22,33 @@ const AboutSectionTwo = () => {
             <div className="max-w-[470px]">
               <div className="mb-9">
                 <h3 className="text-primary mb-4 text-xl font-bold sm:text-2xl lg:text-xl xl:text-2xl dark:text-white">
-                  FITTING AVAILABLE
+                  Printing
                 </h3>
                 <p className="text-body-color text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">
-                  Fitting rooms are available at our store for you to try on
-                  different sizes and colors to find the one that suits you
-                  best.
+                  Whether you are looking for logo printing on your uniform,
+                  brand or rebrand your shop or even your vehicle, we have you
+                  covered. We also have experienced graphic designers who can
+                  help you with your design needs.
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="text-primary mb-4 text-xl font-bold sm:text-2xl lg:text-xl xl:text-2xl dark:text-white">
-                  3-MONTHS LAY-BY
+                  Embroidery
                 </h3>
                 <p className="text-body-color text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">
-                  Get a 3-months lay-by option on all our products. Pay a
-                  deposit and we will keep your items safe until you are ready
-                  to pay the balance.
+                  We offer high quality embroidery services for all your work
+                  wear, corporate wear and promotional items. We have a wide
+                  range of embroidery threads and fabrics to choose from.
                 </p>
               </div>
               <div className="mb-1">
                 <h3 className="text-primary mb-4 text-xl font-bold sm:text-2xl lg:text-xl xl:text-2xl dark:text-white">
-                  BUY IN BULK
+                  InstallaTion
                 </h3>
                 <p className="text-body-color text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">
-                  If you are a business owner and you want to get your employees
-                  quality work wear, You can buy in bulk.
+                  After completing your designs we have a team of applicators
+                  ready to brand your shop, vehicle or any other item you need
+                  branded. We also install your signage and branding on site.
                 </p>
               </div>
             </div>

@@ -29,13 +29,13 @@ const Hero = () => {
               </p>
               <div className="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
                 <Link
-                  href="/about"
+                  href="/services#printing"
                   className="bg-primary hover:bg-primary/80 rounded-lg px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out"
                 >
                   PPE Safety Wear
                 </Link>
                 <Link
-                  href="/about"
+                  href="/services"
                   className="inline-block rounded-lg bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
                 >
                   Printing & Embroidery

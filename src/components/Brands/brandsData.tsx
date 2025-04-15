@@ -38,10 +38,10 @@ const brandsData: Brand[] = [
   },
   {
     id: 5,
-    name: "PT2 Plant Hire",
-    href: "https://plainadmin.com",
-    image: "/images/brands/plainadmin.svg",
-    imageLight: "/images/brands/plainadmin-light.svg",
+    name: "HM Plant Hire",
+    href: "https://www.facebook.com/p/HM-Plant-Hire-Mokopane-Pty-Ltd-100063497591678/",
+    image: "/images/brands/hm.png",
+    imageLight: "/images/brands/hm.png",
   },
 ];
 
