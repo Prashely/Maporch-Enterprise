@@ -49,7 +49,7 @@ const AboutSectionOne = () => {
               </div>
 
               {/* Download Button */}
-              <div className="mt-8">
+              <div className="mt-8 mb-10">
                 <a
                   href="/booklet/maporch.pdf"
                   download
