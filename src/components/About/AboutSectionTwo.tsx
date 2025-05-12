@@ -43,7 +43,7 @@ const AboutSectionTwo = () => {
               </div>
               <div className="mb-1">
                 <h3 className="text-primary mb-4 text-xl font-bold sm:text-2xl lg:text-xl xl:text-2xl dark:text-white">
-                  InstallaTion
+                  Installation
                 </h3>
                 <p className="text-body-color text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">
                   After completing your designs we have a team of applicators

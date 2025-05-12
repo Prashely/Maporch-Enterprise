@@ -61,7 +61,7 @@ const Pricing = () => {
             <Image
               src="/images/ppe/1.jpg" // Ensure this path is correct
               alt="Hero Image"
-              className="top-0 left-0 h-full w-full rounded-4xl border-4 object-cover"
+              className="top-0 left-0 h-full w-full rounded-4xl object-cover"
               width={400}
               height={400}
             />

@@ -1,6 +1,31 @@
-import NewsLatterBox from "./NewsLatterBox";
+import Link from "next/link";
+import Image from "next/image";
 
 const Contact = () => {
+  const contactDetails = [
+    {
+      id: 1,
+      title: "Telephone",
+      href: "tel:0150042852",
+      text: "015 004 2852/56",
+      icon: "/images/t.svg",
+    },
+    {
+      id: 2,
+      title: "WhatsApp",
+      href: "https://wa.me/message/SOWC6MH4DARXP1",
+      text: "066 138 6214",
+      icon: "/images/wa.svg",
+    },
+    {
+      id: 3,
+      title: "Email",
+      href: "mailto:sales@maporch.co.za",
+      text: "sales@maporch.co.za",
+      icon: "/images/em.svg",
+    },
+  ];
+
   return (
     <section
       id="contact"
@@ -18,71 +43,31 @@ const Contact = () => {
                 Need Help?
               </h2>
               <p className="text-body-color mb-12 text-base font-medium">
-                Fill the form below or give a call at{" "}
-                <span className="text-bold text-primary">015 004 2852</span> or{" "}
-                <a
-                  href="https://wa.me/message/SOWC6MH4DARXP1"
-                  className="text-primary hover:underline"
-                >
-                  WhatsApp
-                </a>{" "}
-                Us.
+                Reach out and we will do our best to assist you.
               </p>
-              <form>
-                <div className="-mx-4 flex flex-wrap">
-                  <div className="w-full px-4 md:w-1/2">
-                    <div className="mb-8">
-                      <label
-                        htmlFor="name"
-                        className="text-dark mb-3 block text-sm font-medium dark:text-white"
+              <div className="flex flex-col space-y-6">
+                {contactDetails.map((contact) => (
+                  <div key={contact.id} className="flex items-center space-x-4">
+                    <Image
+                      src={contact.icon}
+                      width={32}
+                      height={32}
+                      alt={contact.title}
+                    />
+                    <div>
+                      <h4 className="text-lg font-semibold text-black dark:text-white">
+                        {contact.title}
+                      </h4>
+                      <Link
+                        href={contact.href}
+                        className="text-body-color hover:text-primary text-base"
                       >
-                        Your Name
-                      </label>
-                      <input
-                        type="text"
-                        placeholder="Enter your name"
-                        className="border-stroke text-body-color focus:border-primary dark:text-body-color-dark dark:shadow-two dark:focus:border-primary w-full rounded-xs border bg-[#f8f8f8] px-6 py-3 text-base outline-hidden dark:border-transparent dark:bg-[#2C303B] dark:focus:shadow-none"
-                      />
+                        {contact.text}
+                      </Link>
                     </div>
                   </div>
-                  <div className="w-full px-4 md:w-1/2">
-                    <div className="mb-8">
-                      <label
-                        htmlFor="email"
-                        className="text-dark mb-3 block text-sm font-medium dark:text-white"
-                      >
-                        Your Email
-                      </label>
-                      <input
-                        type="email"
-                        placeholder="Enter your email"
-                        className="border-stroke text-body-color focus:border-primary dark:text-body-color-dark dark:shadow-two dark:focus:border-primary w-full rounded-xs border bg-[#f8f8f8] px-6 py-3 text-base outline-hidden dark:border-transparent dark:bg-[#2C303B] dark:focus:shadow-none"
-                      />
-                    </div>
-                  </div>
-                  <div className="w-full px-4">
-                    <div className="mb-8">
-                      <label
-                        htmlFor="message"
-                        className="text-dark mb-3 block text-sm font-medium dark:text-white"
-                      >
-                        Your Message
-                      </label>
-                      <textarea
-                        name="message"
-                        rows={5}
-                        placeholder="Enter your Message"
-                        className="border-stroke text-body-color focus:border-primary dark:text-body-color-dark dark:shadow-two dark:focus:border-primary w-full resize-none rounded-xs border bg-[#f8f8f8] px-6 py-3 text-base outline-hidden dark:border-transparent dark:bg-[#2C303B] dark:focus:shadow-none"
-                      ></textarea>
-                    </div>
-                  </div>
-                  <div className="w-full px-4">
-                    <button className="bg-primary shadow-submit hover:bg-primary/90 dark:shadow-submit-dark rounded-xs px-9 py-4 text-base font-medium text-white duration-300">
-                      Submit Message
-                    </button>
-                  </div>
-                </div>
-              </form>
+                ))}
+              </div>
             </div>
           </div>
 
