@@ -42,13 +42,13 @@ const Hero = () => {
               <div className="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
                 <Link
                   href="/services#printing"
-                  className="bg-primary hover:bg-primary/80 rounded-lg px-8 py-4 font-semibold text-black text-white duration-300 ease-in-out"
+                  className="bg-primary hover:bg-primary/80 rounded-lg px-8 py-4 font-semibold text-white duration-300 ease-in-out"
                 >
                   PPE Safety Wear
                 </Link>
                 <Link
                   href="/services"
-                  className="inline-block rounded-lg bg-black px-8 py-4 font-semibold text-black text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-black dark:hover:bg-white/5"
+                  className="inline-block rounded-lg bg-black px-8 py-4 font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-black dark:hover:bg-white/5"
                 >
                   Printing & Embroidery
                 </Link>
@@ -57,7 +57,7 @@ const Hero = () => {
           </div>
 
           {/* Right Column - Image for Larger Screens */}
-          <div className="hidden w-full px-4 lg:mt-0 lg:block lg:w-1/2">
+          <div className="hidden w-full px-4 lg:mt-10 lg:ml-40 lg:block lg:w-1/2">
             <Image
               src="/images/ppe/2.jpg" // Ensure this path is correct
               alt="Hero Image"
