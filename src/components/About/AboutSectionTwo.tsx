@@ -14,14 +14,14 @@ const AboutSectionTwo = () => {
                 src="/images/ppe/3.png"
                 alt="about image"
                 fill
-                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
+                className="drop-shadow-three"
               />
             </div>
           </div>
           <div className="w-full px-4 lg:w-1/2">
             <div className="max-w-[470px]">
               <div className="mb-9">
-                <h3 className="text-primary mb-4 text-xl font-bold sm:text-2xl lg:text-xl xl:text-2xl dark:text-white">
+                <h3 className="text-primary mb-4 text-xl font-bold sm:text-2xl lg:text-xl xl:text-2xl">
                   Printing
                 </h3>
                 <p className="text-body-color text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">
@@ -32,7 +32,7 @@ const AboutSectionTwo = () => {
                 </p>
               </div>
               <div className="mb-9">
-                <h3 className="text-primary mb-4 text-xl font-bold sm:text-2xl lg:text-xl xl:text-2xl dark:text-white">
+                <h3 className="text-primary mb-4 text-xl font-bold sm:text-2xl lg:text-xl xl:text-2xl">
                   Embroidery
                 </h3>
                 <p className="text-body-color text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">
@@ -42,7 +42,7 @@ const AboutSectionTwo = () => {
                 </p>
               </div>
               <div className="mb-1">
-                <h3 className="text-primary mb-4 text-xl font-bold sm:text-2xl lg:text-xl xl:text-2xl dark:text-white">
+                <h3 className="text-primary mb-4 text-xl font-bold sm:text-2xl lg:text-xl xl:text-2xl">
                   Installation
                 </h3>
                 <p className="text-body-color text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">

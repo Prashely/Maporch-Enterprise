@@ -20,7 +20,7 @@ const AboutSectionOne = () => {
   return (
     <section id="ppe-safety-wear" className="pt-16 md:pt-20 lg:pt-28">
       <div className="container">
-        <div className="border-body-color/[.15] border-b pb-16 md:pb-20 lg:pb-28 dark:border-white/[.15]">
+        <div className="border-body-color/[.15] :border-whitedark/[.15] border-b pb-16 md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
@@ -66,7 +66,7 @@ const AboutSectionOne = () => {
                   src="/images/ppe/4.png"
                   alt="about-image"
                   fill
-                  className="drop-shadow-three mx-auto max-w-full lg:mr-0 dark:hidden dark:drop-shadow-none"
+                  className="drop-shadow-three mx-auto max-w-full lg:mr-0"
                 />
               </div>
             </div>
