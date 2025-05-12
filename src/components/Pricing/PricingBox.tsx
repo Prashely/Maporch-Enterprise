@@ -11,7 +11,7 @@ const PricingBox = (props: {
     <div className="w-full">
       <div className="shadow-three hover:shadow-one dark:bg-gray-dark dark:shadow-two dark:hover:shadow-gray-dark relative z-10 rounded-xs bg-white px-8 py-10">
         <div className="flex items-center justify-between">
-          <h4 className="text-dark mb-2 text-center text-xl font-bold dark:text-white">
+          <h4 className="text-dark mb-2 text-center text-xl font-bold dark:text-black">
             {packageName}
           </h4>
         </div>

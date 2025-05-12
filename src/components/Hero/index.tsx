@@ -22,7 +22,7 @@ const Hero = () => {
           {/* Left Column - Hero Text */}
           <div className="w-full px-4 lg:w-1/2">
             <div className="max-w-[600px] text-center lg:text-left">
-              <h1 className="mt-40 mb-5 text-3xl leading-tight font-bold text-black sm:text-4xl md:text-5xl dark:text-white">
+              <h1 className="mt-40 mb-5 text-3xl leading-tight font-bold text-black sm:text-4xl md:text-5xl dark:text-black">
                 <span className="text-primary inline-block">
                   PPE Safety Wear
                 </span>
@@ -48,7 +48,7 @@ const Hero = () => {
                 </Link>
                 <Link
                   href="/services"
-                  className="inline-block rounded-lg bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
+                  className="inline-block rounded-lg bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-black dark:hover:bg-white/5"
                 >
                   Printing & Embroidery
                 </Link>

@@ -39,7 +39,7 @@ const Contact = () => {
               className="shadow-three dark:bg-gray-dark mb-12 rounded-xs bg-white px-8 py-11 sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]"
               data-wow-delay=".15s"
             >
-              <h2 className="mb-3 text-2xl font-bold text-black sm:text-3xl lg:text-2xl xl:text-3xl dark:text-white">
+              <h2 className="mb-3 text-2xl font-bold text-black sm:text-3xl lg:text-2xl xl:text-3xl dark:text-black">
                 Need Help?
               </h2>
               <p className="text-body-color mb-12 text-base font-medium">
@@ -55,7 +55,7 @@ const Contact = () => {
                       alt={contact.title}
                     />
                     <div>
-                      <h4 className="text-lg font-semibold text-black dark:text-white">
+                      <h4 className="text-lg font-semibold text-black dark:text-black">
                         {contact.title}
                       </h4>
                       <Link

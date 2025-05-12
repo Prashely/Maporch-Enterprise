@@ -20,7 +20,7 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
           <h3>
             <Link
               href="/blog-details"
-              className="hover:text-primary dark:hover:text-primary mb-4 block text-xl font-bold text-black sm:text-2xl dark:text-white"
+              className="hover:text-primary dark:hover:text-primary mb-4 block text-xl font-bold text-black sm:text-2xl dark:text-black"
             >
               {title}
             </Link>
@@ -36,14 +36,14 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
                 </div>
               </div>
               <div className="w-full">
-                <h4 className="text-dark mb-1 text-sm font-medium dark:text-white">
+                <h4 className="text-dark mb-1 text-sm font-medium dark:text-black">
                   By {author.name}
                 </h4>
                 <p className="text-body-color text-xs">{author.designation}</p>
               </div>
             </div>
             <div className="inline-block">
-              <h4 className="text-dark mb-1 text-sm font-medium dark:text-white">
+              <h4 className="text-dark mb-1 text-sm font-medium dark:text-black">
                 Date
               </h4>
               <p className="text-body-color text-xs">{publishDate}</p>
