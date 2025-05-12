@@ -17,7 +17,7 @@ const Breadcrumb = ({
                 <h1 className="mb-5 text-2xl font-bold text-black sm:text-3xl dark:text-black">
                   {pageName}
                 </h1>
-                <p className="text-body-color text-base leading-relaxed font-medium">
+                <p className="text-body-color leading-relaxed font-medium text-black">
                   {description}
                 </p>
               </div>
@@ -28,13 +28,13 @@ const Breadcrumb = ({
                   <li className="flex items-center">
                     <Link
                       href="/"
-                      className="text-body-color hover:text-primary pr-1 text-base font-medium"
+                      className="text-body-color hover:text-primary pr-1 font-medium text-black"
                     >
                       Home
                     </Link>
                     <span className="border-body-color mr-3 block h-2 w-2 rotate-45 border-t-2 border-r-2"></span>
                   </li>
-                  <li className="text-primary text-base font-medium">
+                  <li className="text-primary font-medium text-black">
                     {pageName}
                   </li>
                 </ul>

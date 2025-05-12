@@ -42,7 +42,7 @@ const Contact = () => {
               <h2 className="mb-3 text-2xl font-bold text-black sm:text-3xl lg:text-2xl xl:text-3xl dark:text-black">
                 Need Help?
               </h2>
-              <p className="text-body-color mb-12 text-base font-medium">
+              <p className="text-body-color mb-12 font-medium text-black">
                 Reach out and we will do our best to assist you.
               </p>
               <div className="flex flex-col space-y-6">
@@ -60,7 +60,7 @@ const Contact = () => {
                       </h4>
                       <Link
                         href={contact.href}
-                        className="text-body-color hover:text-primary text-base"
+                        className="text-body-color hover:text-primary text-black"
                       >
                         {contact.text}
                       </Link>

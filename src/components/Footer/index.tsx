@@ -48,7 +48,7 @@ const Footer = () => {
                     height={30}
                   />
                 </Link>
-                <p className="text-body-color mb-2 text-base leading-relaxed">
+                <p className="text-body-color mb-2 leading-relaxed text-black">
                   Your one stop for quality PPE Safety Wear, Printing &
                   Embroidery.
                 </p>
@@ -65,7 +65,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/ppe-safety-wear"
-                      className="text-body-color hover:text-primary mb-1 inline-block text-base duration-300"
+                      className="text-body-color hover:text-primary mb-1 inline-block text-black duration-300"
                     >
                       PPE Safety Wear
                     </Link>
@@ -73,7 +73,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/services"
-                      className="text-body-color hover:text-primary mb-1 inline-block text-base duration-300"
+                      className="text-body-color hover:text-primary mb-1 inline-block text-black duration-300"
                     >
                       Printing & Embroidery
                     </Link>
@@ -81,7 +81,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/about"
-                      className="text-body-color hover:text-primary mb-1 inline-block text-base duration-300"
+                      className="text-body-color hover:text-primary mb-1 inline-block text-black duration-300"
                     >
                       About
                     </Link>
@@ -110,7 +110,7 @@ const Footer = () => {
                       />
                       <Link
                         href={contact.href}
-                        className="text-body-color hover:text-primary text-base"
+                        className="text-body-color hover:text-primary text-black"
                       >
                         {contact.text}
                       </Link>
@@ -123,7 +123,7 @@ const Footer = () => {
 
           <div className="h-px w-full bg-linear-to-r from-transparent via-[#D2D8E183] to-transparent"></div>
           <div className="py-8">
-            <p className="text-body-color text-center text-base">
+            <p className="text-body-color text-center text-black">
               Maporch Enterprise © 2025 All Rights Reserved
             </p>
             <p className="text-center text-sm text-gray-500">

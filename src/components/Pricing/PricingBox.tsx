@@ -18,7 +18,7 @@ const PricingBox = (props: {
         <div className="border-body-color/10 mb-8 border-b pb-8 dark:border-white/10">
           <a
             href="https://wa.me/message/SOWC6MH4DARXP1"
-            className="bg-primary/80 hover:shadow-signUp flex w-full items-center justify-center rounded-xs p-3 text-base font-semibold text-white transition duration-300 ease-in-out"
+            className="bg-primary/80 hover:shadow-signUp flex w-full items-center justify-center rounded-xs p-3 font-semibold text-black text-white transition duration-300 ease-in-out"
           >
             Request Pricings
           </a>

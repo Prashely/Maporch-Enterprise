@@ -24,7 +24,7 @@ const AboutSectionTwo = () => {
                 <h3 className="text-primary mb-4 text-xl font-bold sm:text-2xl lg:text-xl xl:text-2xl">
                   Printing
                 </h3>
-                <p className="text-body-color text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">
+                <p className="text-body-color leading-relaxed font-medium text-black sm:text-lg sm:leading-relaxed">
                   Whether you are looking for logo printing on your uniform,
                   brand or rebrand your shop or even your vehicle, we have you
                   covered. We also have experienced graphic designers who can
@@ -35,7 +35,7 @@ const AboutSectionTwo = () => {
                 <h3 className="text-primary mb-4 text-xl font-bold sm:text-2xl lg:text-xl xl:text-2xl">
                   Embroidery
                 </h3>
-                <p className="text-body-color text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">
+                <p className="text-body-color leading-relaxed font-medium text-black sm:text-lg sm:leading-relaxed">
                   We offer high quality embroidery services for all your work
                   wear, corporate wear and promotional items. We have a wide
                   range of embroidery threads and fabrics to choose from.
@@ -45,7 +45,7 @@ const AboutSectionTwo = () => {
                 <h3 className="text-primary mb-4 text-xl font-bold sm:text-2xl lg:text-xl xl:text-2xl">
                   Installation
                 </h3>
-                <p className="text-body-color text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed">
+                <p className="text-body-color leading-relaxed font-medium text-black sm:text-lg sm:leading-relaxed">
                   After completing your designs we have a team of applicators
                   ready to brand your shop, vehicle or any other item you need
                   branded. We also install your signage and branding on site.

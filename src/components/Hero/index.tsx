@@ -32,7 +32,7 @@ const Hero = () => {
                   Shop In Mokopane.
                 </span>
               </h1>
-              <p className="text-body-color dark:text-body-color-dark mb-8 hidden text-base leading-relaxed sm:text-lg md:text-xl lg:block">
+              <p className="text-body-color dark:text-body-color-dark mb-8 hidden leading-relaxed text-black sm:text-lg md:text-xl lg:block">
                 At Maporch we pride ourselves in providing the best quality PPE
                 Safety Wear, Printing & Embroidery in Mokopane. In our 4 years
                 of business, we have managed to serve over 1000+ happy
@@ -42,13 +42,13 @@ const Hero = () => {
               <div className="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
                 <Link
                   href="/services#printing"
-                  className="bg-primary hover:bg-primary/80 rounded-lg px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out"
+                  className="bg-primary hover:bg-primary/80 rounded-lg px-8 py-4 font-semibold text-black text-white duration-300 ease-in-out"
                 >
                   PPE Safety Wear
                 </Link>
                 <Link
                   href="/services"
-                  className="inline-block rounded-lg bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-black dark:hover:bg-white/5"
+                  className="inline-block rounded-lg bg-black px-8 py-4 font-semibold text-black text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-black dark:hover:bg-white/5"
                 >
                   Printing & Embroidery
                 </Link>
