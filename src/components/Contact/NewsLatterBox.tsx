@@ -10,7 +10,7 @@ const NewsLatterBox = () => {
       <h3 className="mb-4 text-2xl leading-tight font-bold text-black dark:text-black">
         Subscribe to receive future updates
       </h3>
-      <p className="border-body-color/25 text-body-color mb-11 border-b pb-11 leading-relaxed text-black dark:border-white/25">
+      <p className="border-body-color/25 mb-11 border-b pb-11 leading-relaxed text-black dark:border-white/25">
         Lorem ipsum dolor sited Sed ullam corper consectur adipiscing Mae ornare
         massa quis lectus.
       </p>
@@ -19,20 +19,20 @@ const NewsLatterBox = () => {
           type="text"
           name="name"
           placeholder="Enter your name"
-          className="border-stroke text-body-color focus:border-primary mb-4 w-full rounded-xs border bg-[#f8f8f8] px-6 py-3 text-black outline-hidden"
+          className="border-stroke focus:border-primary mb-4 w-full rounded-xs border bg-[#f8f8f8] px-6 py-3 text-black outline-hidden"
         />
         <input
           type="email"
           name="email"
           placeholder="Enter your email"
-          className="border-stroke text-body-color focus:border-primary mb-4 w-full rounded-xs border bg-[#f8f8f8] px-6 py-3 text-black outline-hidden"
+          className="border-stroke focus:border-primary mb-4 w-full rounded-xs border bg-[#f8f8f8] px-6 py-3 text-black outline-hidden"
         />
         <input
           type="submit"
           value="Subscribe"
-          className="bg-primary shadow-submit hover:bg-primary/90 mb-5 flex w-full cursor-pointer items-center justify-center rounded-xs px-9 py-4 font-medium text-black text-white duration-300"
+          className="bg-primary shadow-submit hover:bg-primary/90 mb-5 flex w-full cursor-pointer items-center justify-center rounded-xs px-9 py-4 font-medium text-white duration-300"
         />
-        <p className="text-body-color dark:text-body-color-dark text-center leading-relaxed text-black">
+        <p className="dark:text-body-color-dark text-center leading-relaxed text-black">
           No spam guaranteed, So please don’t send any spam mail.
         </p>
       </div>

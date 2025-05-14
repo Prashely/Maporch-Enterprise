@@ -32,7 +32,7 @@ const Hero = () => {
                   Shop In Mokopane.
                 </span>
               </h1>
-              <p className="text-body-color dark:text-body-color-dark mb-8 hidden leading-relaxed text-black sm:text-lg md:text-xl lg:block">
+              <p className="dark:text-body-color-dark mb-8 hidden leading-relaxed text-black sm:text-lg md:text-xl lg:block">
                 At Maporch we pride ourselves in providing the best quality PPE
                 Safety Wear, Printing & Embroidery in Mokopane. In our 4 years
                 of business, we have managed to serve over 1000+ happy

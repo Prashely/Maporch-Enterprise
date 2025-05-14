@@ -13,14 +13,14 @@ const Pricing = () => {
       <div className="container">
         <SectionTitle
           title="Our Services & Products"
-          paragraph="For pricing and qoutes please contact us."
+          paragraph="For pricing and quotes please contact us."
           center
           width="665px"
         />
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <PricingBox
-            packageName="Printing & Embrodiery"
+            packageName="Printing & Embroidery"
             price=""
             duration={isMonthly ? "mo" : "yr"}
             subtitle="For prices please contact us"
