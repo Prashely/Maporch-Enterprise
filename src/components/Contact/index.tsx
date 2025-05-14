@@ -24,6 +24,13 @@ const Contact = () => {
       text: "sales@maporch.co.za",
       icon: "/images/em.svg",
     },
+    {
+      id: 4,
+      title: "Facebook",
+      href: "https://www.facebook.com/people/Maporch-Enterprise/61573398093426/",
+      text: "Maporch Enterprise ",
+      icon: "/images/fa.svg",
+    },
   ];
 
   return (

@@ -22,6 +22,12 @@ const Footer = () => {
       text: "sales@maporch.co.za",
       icon: "/images/em.svg",
     },
+    {
+      id: 4,
+      href: "https://www.facebook.com/people/Maporch-Enterprise/61573398093426/",
+      text: "Maporch Enterprise ",
+      icon: "/images/fa.svg",
+    },
   ];
 
   return (
@@ -65,7 +71,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/ppe-safety-wear"
-                      className="text-body-color hover:text-primary mb-1 inline-block text-black duration-300"
+                      className="hover:text-primary mb-1 inline-block text-black duration-300"
                     >
                       PPE Safety Wear
                     </Link>
@@ -73,7 +79,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/services"
-                      className="text-body-color hover:text-primary mb-1 inline-block text-black duration-300"
+                      className="hover:text-primary mb-1 inline-block text-black duration-300"
                     >
                       Printing & Embroidery
                     </Link>
@@ -81,7 +87,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/about"
-                      className="text-body-color hover:text-primary mb-1 inline-block text-black duration-300"
+                      className="hover:text-primary mb-1 inline-block text-black duration-300"
                     >
                       About
                     </Link>
@@ -110,7 +116,7 @@ const Footer = () => {
                       />
                       <Link
                         href={contact.href}
-                        className="text-body-color hover:text-primary text-black"
+                        className="hover:text-primary text-black"
                       >
                         {contact.text}
                       </Link>
