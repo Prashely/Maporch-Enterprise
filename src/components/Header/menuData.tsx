@@ -9,13 +9,20 @@ const menuData: Menu[] = [
   },
   {
     id: 2,
-    title: "Services",
-    path: "/services",
+    title: "Safety & Work Wear",
+    path: "/ppe",
     newTab: false,
   },
 
   {
     id: 3,
+    title: "Printing & Embroidery",
+    path: "/printing",
+    newTab: false,
+  },
+
+  {
+    id: 4,
     title: "Contact",
     path: "/contact",
     newTab: false,
