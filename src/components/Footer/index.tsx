@@ -135,10 +135,10 @@ const Footer = () => {
             <p className="text-center text-sm text-gray-500">
               credits to{" "}
               <a
-                href="https://prashely.com"
+                href="https://precisiondesignsagency.com"
                 className="text-black underline underline-offset-2"
               >
-                Prashely
+                Precision Designs Agency
               </a>
             </p>
           </div>
