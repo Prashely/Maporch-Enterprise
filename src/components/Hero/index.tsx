@@ -47,7 +47,7 @@ const Hero = () => {
                   PPE Safety Wear
                 </Link>
                 <Link
-                  href="/ppe"
+                  href="/printing"
                   className="inline-block rounded-lg bg-black px-8 py-4 font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-black dark:hover:bg-white/5"
                 >
                   Printing & Embroidery
